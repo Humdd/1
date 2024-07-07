@@ -1,0 +1,6 @@
+ITERATION_UTILS_PATH = C:/3rdLibary/iteration_utils
+INCLUDEPATH += $${ITERATION_UTILS_PATH}/
+DEPENDPATH += $${ITERATION_UTILS_PATH}/
+HEADERS += \
+        $${ITERATION_UTILS_PATH}/range.h \
+        $${ITERATION_UTILS_PATH}/enumerate.h

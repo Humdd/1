@@ -1,0 +1,13 @@
+{
+    "circle_pos": "[(1575,2451,260,200)||(1979,2447,232,228)]",
+    "rect_down": {
+        "Pos": "(1559,2263,580,160)",
+        "binary_threshold": 124,
+        "mean_height": 61
+    },
+    "rect_up": {
+        "Pos": "(1543,411,628,164)",
+        "binary_threshold": 92,
+        "mean_height": 55
+    }
+}

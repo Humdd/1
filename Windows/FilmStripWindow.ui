@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FilmStripWindow</class>
+ <widget class="QMainWindow" name="FilmStripWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>885</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>热合标注工具</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,1">
+    <item>
+     <widget class="QGroupBox" name="groupBox_Display">
+      <property name="title">
+       <string>Display</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="AbstractPaintingView" name="paintingView" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_Params">
+      <property name="title">
+       <string>Params</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_Threshold1">
+         <property name="title">
+          <string>二值化阈值</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QSpinBox" name="spinBox_Threshold1"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSlider" name="horizontalSlider_Threshold1">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_ModeSelect"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Run">
+         <property name="text">
+          <string>运行</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_ReadJson">
+         <property name="text">
+          <string>读取Json文件</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_StoreJson">
+         <property name="text">
+          <string>保存Json文件</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>438</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>885</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_AlgorithmConfig"/>
+    <addaction name="action_OpenImages"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action_AlgorithmConfig">
+   <property name="text">
+    <string>算法参数配置</string>
+   </property>
+  </action>
+  <action name="action_OpenImages">
+   <property name="text">
+    <string>批量打开图片</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AbstractPaintingView</class>
+   <extends>QWidget</extends>
+   <header location="global">Control/AbstractPaintingView/AbstractPaintingView.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

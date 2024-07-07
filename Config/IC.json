@@ -1,0 +1,26 @@
+{
+    "rect_chip": {
+        "Pos": "(1535,979,856,1291)",
+        "binary_threshold": 114,
+        "mean_height": 40
+    },
+    "rect_circle": {
+        "Pos": "(2255,2132,53,53)",
+        "cannyThresh": 120,
+        "cnt_BGA_circle": 30,
+        "maxRadius": 28,
+        "maxRadius_bga": 17,
+        "minDist": 60,
+        "minRadius": 23,
+        "minRadius_bga": 12,
+        "pad_circle": 60,
+        "precision": 13
+    },
+    "rect_logo": {
+        "Pos": "(1699,1651,152,500)",
+        "binary_threshold": 175,
+        "diffRatio": 0.97,
+        "pad_logo": 60,
+        "wndsz": 10
+    }
+}

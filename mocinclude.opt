@@ -1,0 +1,42 @@
+-IF:/Qt5.15/5.15.2/msvc2019_64/mkspecs/win32-msvc
+-IF:/QtProject/bdj/bdj
+-IF:/QtProject/bdj/bdj
+-IF:/QtProject/bdj/bdj/inc
+-IF:/QtProject/bdj/bdj/Control
+-IF:/QtProject/bdj/bdj/Control/AbstractPaintingView
+-IF:/QtProject/bdj/bdj/Control/ICPaintingView
+-IF:/QtProject/bdj/bdj/Control/PropertyBrowser
+-IF:/QtProject/bdj/bdj/SupportClass
+-IF:/QtProject/bdj/bdj/Windows
+-IF:/QtProject/bdj/bdj/Log4cplus
+-IF:/QtProject/bdj/bdj/Log4cplus/include
+-IF:/QtProject/bdj/bdj/Log4cplus/include/log4cplus
+-IC:/3rdLibary/Include
+-IC:/3rdLibary/Include/SupportClass
+-IF:/QtProject/bdj/bdj/External/OpenCV
+-IF:/QtProject/bdj/bdj/External/OpenCV/SupportClass
+-IC:/3rdLibary/OpenCV/include
+-IC:/3rdLibary/OpenCV/include/opencv2
+-IF:/QtProject/bdj/bdj/External/spdlog
+-IC:/3rdLibary/spdlog/include
+-IC:/3rdLibary/spdlog/spdlog
+-IC:/3rdLibary/spdlog/spdlog/include/spdlog
+-IF:/QtProject/bdj/bdj/External/CustomQtTool/QtPropertyBrowser
+-IF:/QtProject/bdj/bdj/External/CustomQtTool/AbstractPaintingView
+-IC:/3rdLibary/qttools-5.12.9/src/shared/qtpropertybrowser
+-IF:/QtProject/bdj/bdj/External/PCH
+-IC:/3rdLibary/matchit/include
+-IF:/Qt5.15/5.15.2/msvc2019_64/include
+-IF:/Qt5.15/5.15.2/msvc2019_64/include/QtWidgets
+-IF:/Qt5.15/5.15.2/msvc2019_64/include/QtGui
+-IF:/Qt5.15/5.15.2/msvc2019_64/include/QtANGLE
+-IF:/Qt5.15/5.15.2/msvc2019_64/include/QtNetwork
+-IF:/Qt5.15/5.15.2/msvc2019_64/include/QtCore
+-ID:\VS2022\IDE\VC\Tools\MSVC\14.32.31326\ATLMFC\include
+-ID:\VS2022\IDE\VC\Tools\MSVC\14.32.31326\include
+-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um
+-ID:\Windows Kits\10\include\10.0.19041.0\ucrt
+-ID:\Windows Kits\10\\include\10.0.19041.0\\shared
+-ID:\Windows Kits\10\\include\10.0.19041.0\\um
+-ID:\Windows Kits\10\\include\10.0.19041.0\\winrt
+-ID:\Windows Kits\10\\include\10.0.19041.0\\cppwinrt
